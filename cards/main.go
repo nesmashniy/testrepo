@@ -7,6 +7,7 @@ func main() {
 
 	// hand.print()
 	//remainingDeck.print()
-	cards := newDeckFromFile("my_cards1")
+	cards := newDeck()
+	cards.shuffle()
 	cards.print()
 }
